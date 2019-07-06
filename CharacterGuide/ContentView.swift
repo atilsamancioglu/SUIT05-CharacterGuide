@@ -10,14 +10,20 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        List(superHeroArray){ superhero in
+            ListRow(superhero: superhero)
+        }
     }
 }
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group{
+        ContentView().previewDevice("iPhone 8").previewDisplayName("iPhone 8")
+        ContentView().previewDevice("iPhone XR").previewDisplayName("iPhone XR")
+
+        }
     }
 }
 #endif

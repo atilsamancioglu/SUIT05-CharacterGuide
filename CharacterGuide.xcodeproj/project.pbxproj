@@ -13,6 +13,8 @@
 		FCBC701322D08E36004C286D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBC701222D08E36004C286D /* Assets.xcassets */; };
 		FCBC701622D08E36004C286D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBC701522D08E36004C286D /* Preview Assets.xcassets */; };
 		FCBC701922D08E36004C286D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBC701722D08E36004C286D /* LaunchScreen.storyboard */; };
+		FCF79D7E22D090B6009C55A3 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF79D7D22D090B6009C55A3 /* ListRow.swift */; };
+		FCF79D8022D092E1009C55A3 /* SuperheroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF79D7F22D092E1009C55A3 /* SuperheroModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FCBC701522D08E36004C286D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCBC701822D08E36004C286D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCBC701A22D08E36004C286D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF79D7D22D090B6009C55A3 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		FCF79D7F22D092E1009C55A3 /* SuperheroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				FCBC700C22D08E33004C286D /* AppDelegate.swift */,
 				FCBC700E22D08E33004C286D /* SceneDelegate.swift */,
 				FCBC701022D08E33004C286D /* ContentView.swift */,
+				FCF79D7D22D090B6009C55A3 /* ListRow.swift */,
+				FCF79D7F22D092E1009C55A3 /* SuperheroModel.swift */,
 				FCBC701222D08E36004C286D /* Assets.xcassets */,
 				FCBC701722D08E36004C286D /* LaunchScreen.storyboard */,
 				FCBC701A22D08E36004C286D /* Info.plist */,
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF79D7E22D090B6009C55A3 /* ListRow.swift in Sources */,
+				FCF79D8022D092E1009C55A3 /* SuperheroModel.swift in Sources */,
 				FCBC700D22D08E33004C286D /* AppDelegate.swift in Sources */,
 				FCBC700F22D08E33004C286D /* SceneDelegate.swift in Sources */,
 				FCBC701122D08E33004C286D /* ContentView.swift in Sources */,
